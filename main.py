@@ -9,6 +9,8 @@ app_mode = st.sidebar.selectbox(
 
 if app_mode == 'Home':
     st.title('Iris')
+    st.markdown('Nama : Dicky Aji Pamungkas')
+    st.markdown('NIM : 2017230211')
     st.markdown('Dataset :')
     data = pd.read_csv('iris.csv')
     st.write(data.head())
